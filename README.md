@@ -1,1 +1,1 @@
-# pcc-ypt2016
+# SIC School Club registration system
