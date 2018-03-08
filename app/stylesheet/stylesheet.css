@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face{
+	font-family: "Sarabun";
+	src: local("TH SarabunPSK"), url(THSarabun.woff) format(woff), url(THSarabun.ttf) format(truetype);
+}
+body{
+}
+#header{
+	position: fixed;
+	width: 100%;
+	min-width: 710px;
+}
+.header{
+	font-family: "sarabun";
+	font-size:50px;
+}
+#cover{
+	position: absolute;
+	top:40px;
+	width: 90%;
+	height: 150px;
+	padding-left:10%;
+	padding-top:50px;
+	font-family: "sarabun";
+	font-size: 30px;
+	color: white;
+	background:#FFBC00;
+}
+.cover{
+	font-family: "sarabun";
+	font-size: 80px;
+}
+#contain{
+	position: absolute;
+	width:100%;
+	top:260px;
+}
+#app{
+	position:relative;
+	top:10px;
+	left:10%;
+	right:10%;
+ 	width:80%;
+	min-width: 710px;
+	line-height: 25px;
+}
+#footer {
+	position: relative;
+	left:10%;
+	right:10%;
+ 	width:80%;
+	bottom:0;
+	text-align: center;
+	color:gray;
+}
+.text_credit{
+	color:#4099FF;
+}
